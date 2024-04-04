@@ -1,6 +1,6 @@
 # Cloud kassa backend engine
 > A solution for mass posting of receipts to cash registers if you do not want to buy and set up physical cash registers.  
-> Generate receipts in json based on uploads from client banks and send them to cloud cashiers.
+> Generate receipts in json based on uploads from client banks and send them to cloud cashiers.  
 > Nothing will be lost thanks to logging of all actions and humanreadable reports in excel.
 
 + parses upload files from client banks: gpb, sbp
