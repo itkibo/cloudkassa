@@ -4,13 +4,13 @@
 > Generate receipts in json based on uploads from client banks and send them to cloud cashiers.  
 > Nothing will be lost thanks to logging of all actions and humanreadable reports in excel.
 
-+ parses upload files from client banks: gpb, sbp
-+ extracts data and generates receipts in json
-+ sends receipts to the Ferma API service OFD.RU
-+ generates reports on submitted documents
-+ detailed logging of all operations
-+ archives sent packages and log files
-+ works in production and sandbox modes depends on config file
+- [x] parses upload files from client banks: gpb, sbp
+- [x] extracts data and generates receipts in json
+- [x] sends receipts to the Ferma API service OFD.RU
+- [x] generates reports on submitted documents
+- [x] detailed logging of all operations
+- [x] archives sent packages and log files
+- [x] works in production and sandbox modes depends on config file
 
 config example
 ---
