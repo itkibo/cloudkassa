@@ -1,0 +1,23 @@
+﻿{
+    "Request":  {
+                    "InvoiceId":  null,
+                    "CustomerReceipt":  {
+                                            "Email":  "no-reply@example.com",
+                                            "Items":  [
+                                                          {
+                                                              "Label":  "Отопление и тепловая энергия для ГВС",
+                                                              "Price":  null,
+                                                              "Quantity":  1,
+                                                              "Amount":  null,
+                                                              "Vat":  "CalculatedVat20120"
+                                                          }
+                                                      ],
+                                            "PaymentType":  4,
+                                            "TaxationSystem":  "Common",
+                                            "Phone":  null
+                                        },
+                    "LocalDate":  null,
+                    "Type":  "Income",
+                    "Inn":  "0123456789"
+                }
+}
