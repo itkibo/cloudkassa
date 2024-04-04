@@ -1,0 +1,45 @@
+﻿2020-11-27-170911	current config file: debug.ini
+2020-11-27-170911	script D E B U G mode enabled
+2020-11-27-170911	will be used ferma-test api
+2020-11-27-170911	------------------------------
+2020-11-27-170911	auth token: f4ea525c-5d3e-4b77-8b64-168ad9cb2dbe
+2020-11-27-170911	new package name: 20201127-170911-34
+{
+    "mode":  "debug",
+    "source":  ".\\queue\\20201127-170911-34\\source",
+    "package":  ".\\queue\\20201127-170911-34",
+    "report":  "..\\_report\\20201127-170911-34",
+    "zip":  ".\\zip",
+    "filescount":  1,
+    "name":  "20201127-170911-34",
+    "files":  [
+                  "D:\\app\\_code\\ps\\CloudKassa\\_source\\sber\\ОСБ0_1receipt_HUMAN.txt"
+              ],
+    "result":  ".\\queue\\20201127-170911-34\\result"
+}
+2020-11-27-170911	package 20201127-170911-34 processing...
+2020-11-27-170911	 > source file: ОСБ0_1receipt_HUMAN.txt
+2020-11-27-170911	 > file type: BankStatementSber
+2020-11-27-170912	 > docs counter human/other/total: 1/1/2
+2020-11-27-170912	 > receipts count: 1 preparing...
+2020-11-27-170912	 > receipts count: 1 prepared
+2020-11-27-170912	pushing all receipts...
+2020-11-27-170912	 > file: ОСБ0_1receipt_HUMAN.txt
+2020-11-27-170912	 > pushing count: 1 receipts...
+2020-11-27-170912	 > receipts pushed success/error/total: 1/0/1
+2020-11-27-170912	 > sum success/error/total: 2612/0/2612
+2020-11-27-170912	 > duration: 0:00:00,1625701
+2020-11-27-170912	 > !SUCCESS
+2020-11-27-170912	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020-11-27-170912	total statistics for package: 20201127-170911-34
+2020-11-27-170912	receipts pushed success/error/total: 1/0/1
+2020-11-27-170912	sum pushed success/error/total: 2612/0/2612
+2020-11-27-170912	duration: 0:00:00,1625701
+2020-11-27-170912	!SUCCESS TOTAL :)
+2020-11-27-170912	^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2020-11-27-170912	compressing package...
+2020-11-27-170912	package moved from the queue folder
+2020-11-27-170913	package zipped 2.7939453125 Kbite .\zip\20201127-170911-34.zip
+2020-11-27-170913	calculate and saving reports...
+2020-11-27-170913	done
+2020-11-27-170913	-
