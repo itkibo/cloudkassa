@@ -3,18 +3,19 @@
 </p>
 
 # Cloud kassa backend engine
-> A solution for mass posting of receipts to cash registers  
+> A solution for mass pushing of receipts to cash registers  
 > It's useful if you do not want to buy and set up physical cash registers  
-> Generate receipts in json based on uploads from client banks and send them to cloud cashiers  
+> If you need to to punch a large number of checks  
+> Just generate receipts in JSON based on uploaded data files from your client bank and send them to cloud cashiers  
 > Nothing will be lost thanks to logging of all actions and humanreadable reports in excel
 
-- [x] parses upload files from client banks: gpb, sbp
-- [x] extracts data and generates receipts in json
-- [x] sends receipts to the Ferma API service OFD.RU
-- [x] generates reports on submitted documents
-- [x] detailed logging of all operations
-- [x] archives sent packages and log files
-- [x] works in production and sandbox modes depends on config file
+- [x] parses uploaded files from client banks: `GPB, SBER`
+- [x] extracts data and generates receipts in `JSON`
+- [x] automatically pushes receipts to the API service [Ferma OFD.RU](https://ofd.ru/uslugi/ferma)
+- [x] generates `reports` on submitted documents
+- [x] detailed `logging` of all operations
+- [x] `archives` sent packages and log files
+- [x] works in `production and sandbox` modes depends on config file
 
 ## config example
 ```ini
