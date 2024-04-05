@@ -1,6 +1,7 @@
 <p align="right">
   <img src="https://img.shields.io/badge/language-powershell-skyblue?style"/>
 </p>
+
 # Cloud kassa backend engine
 > A solution for mass posting of receipts to cash registers  
 > It's useful if you do not want to buy and set up physical cash registers  
@@ -15,8 +16,7 @@
 - [x] archives sent packages and log files
 - [x] works in production and sandbox modes depends on config file
 
-config example
----
+## config example
 ```ini
 [parser]
 ; exclude organisations list for parser
@@ -43,8 +43,7 @@ pathAuthTokenJson = ".\token.json"
 ; ferma api push
 uri = "https://ferma-test.ofd.ru/api/kkt/cloud/receipt"
 ```
-log example
----
+## log example
 ```
 2020-11-27-170911	current config file: debug.ini
 2020-11-27-170911	script D E B U G mode enabled
@@ -92,8 +91,7 @@ log example
 2020-11-27-170913	done
 2020-11-27-170913	-
 ```
-report example .csv
----
+## report example .csv
 ```
 Дата время;Порядковый №;Сумма;Чек отправлен (1-да, 0-нет);ID чека внутренний;ID чека внешний (ferma OFD)
 27.11.2020 17:09:12;000001;2612;1;20201127-170911-34@20201127-170912-11@000001;0f2bc370-01f3-4af1-a03b-52d45b7701b7
